@@ -1,0 +1,119 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(./Imagese/dark1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 1;
+    /* background: red;
+    backdrop-filter: blur(10px); */
+}
+
+header :nth-child(1) {
+    justify-content: start;
+}
+
+header :nth-child(2) {
+    display: grid;
+    grid-template-columns: 12% 12% 12% 12%;
+    grid-template-rows: 1;
+}
+
+section button:hover {
+    box-shadow: 2px 2px 5px 1px #bbbb;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+section h1:hover {
+    cursor: context-menu;
+}
+
+section p:hover {
+    cursor: pointer;
+    transition: all 0.5s;
+    transform: scale(1.2);
+}
+
+section p {
+    transition: all 500ms;
+}
+
+section h1 {
+    margin-left: 4rem;
+    font-size: 2rem;
+    margin-top: 1.5;
+}
+
+section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section button {
+    transition: all 500ms;
+    background: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    border-color: white;
+    border-width: 0.3px;
+}
+
+main {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+}
+
+main div {
+    margin-top: 3rem;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+main div h1 {
+    background: -webkit-linear-gradient(60deg, #fff, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 45rem;
+    font-size: 3rem;
+}
+
+main div h4 {
+    font-size: 1.5rem;
+    width: 29rem;
+    justify-self: center;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+main button {
+    position: fixed;
+    bottom: 2rem;
+    left: 46rem;
+    border: none;
+    color: white;
+    background: none;
+    display: grid;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 500ms;
+}
+
+main button:hover {
+    border: 1px solid #fff;
+}
